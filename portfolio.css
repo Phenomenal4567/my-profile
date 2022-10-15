@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(249, 250, 262);
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+.all {
+  margin: 4%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  line-height: 1.8em;
+  font-size: 1.5em;
+}
+
+.hum {
+  position: fixed;
+  background-color: black;
+  border: none;
+  top: 0;
+  width: 100%;
+}
+
+.all {
+  margin-top: 8em;
+}
+
+button {
+  border-style: none;
+}
+
+.top {
+  padding: 1.3em 0.5rem 50px 0.2em;
+  background-color: #f0f0f0;
+}
+
+.hr {
+  margin: 0;
+  padding: 0;
+}
+
+.navleft {
+  float: left;
+  width: 50%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+
+.navright {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.upload {
+  width: 10%;
+  display: inline-block;
+  margin-left: 40%;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.drop-down {
+  position: absolute;
+  width: 120%;
+  margin-top: 5px;
+  display: none;
+  right: 2em;
+  text-align: right;
+  box-shadow: 5px 6px 8px #b8b8b8;
+}
+
+.upload:hover .drop-down {
+  display: block;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px 12px;
+  display: block;
+  border-bottom: 1px solid red;
+}
+
+.a:hover {
+  background-color: rgb(150, 200, 242);
+}
+
+.mini {
+  border-radius: 50%;
+}
+
+.head {
+  font-size: 2em;
+}
+
+.underline {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.cv {
+  background-color: transparent;
+  border: 2px solid #213fd9;
+  font-size: 15px;
+  padding: 2px 20px;
+  border-radius: 50px;
+  margin: 3% 0 0 10%;
+  color: #333333;
+  text-decoration: none;
+}
+
+.cv:hover {
+  background-color: rgb(150, 200, 242);
+  border: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.cv:active {
+  background-color: red;
+}
+
+.built {
+  font-family: "Courgette", cursive;
+  margin-left: 5%;
+  font-size: 25px;
+}
+
+.cent {
+  margin-left: 40%;
+}
+
+.websites {
+  text-decoration: none;
+}
+
+.website {
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 4px gray;
+  font-size: 15px;
+  padding: 20px 3px;
+  border-radius: 10px;
+  color: #333333;
+  text-decoration: none;
+  margin: 30px 60px;
+}
+
+.website a {
+  color: black;
+}
+
+.website:hover {
+  background-color: #b9d4da;
+  border: none;
+  font-size: 17px;
+  color: black;
+}
+
+.footer {
+  background-color: #323232;
+  text-align: center;
+  color: whitesmoke;
+  padding: 5%;
+}
+
+.underline {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.bottom {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.foot:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.line {
+  color: rgb(48, 152, 202);
+}
+
+.fa-brands,
+.fa-solid {
+  color: whitesmoke;
+}

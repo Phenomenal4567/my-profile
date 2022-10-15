@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(249, 250, 262);
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  line-height: 1.4em;
+  font-size: 1em;
+}
+
+.hum {
+  position: fixed;
+  background-color: black;
+  border: none;
+  top: 0;
+  width: 100%;
+}
+
+.all {
+  margin-top: 8em;
+}
+
+button {
+  border-style: none;
+}
+
+.top {
+  padding: 1.3em 0.5rem 50px 0.2em;
+  background-color: #f0f0f0;
+}
+
+.hr {
+  margin: 0;
+  padding: 0;
+}
+
+.navleft {
+  float: left;
+  width: 50%;
+  margin-left: 2%;
+  box-sizing: border-box;
+}
+
+.navright {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.upload {
+  width: 10%;
+  display: inline-block;
+  margin-left: 40%;
+  position: absolute;
+  top: 1.5rem;
+}
+
+.drop-down {
+  position: absolute;
+  width: 150%;
+  margin-top: 5px;
+  display: none;
+  right: 2em;
+  text-align: right;
+  box-shadow: 5px 6px 8px #b8b8b8;
+}
+
+.upload:hover .drop-down {
+  display: block;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px 12px;
+  display: block;
+  border-bottom: 1px solid red;
+}
+
+.a:hover {
+  background-color: rgb(150, 200, 242);
+}
+
+.container {
+  margin: 0 7%;
+}
+
+.mini {
+  border-radius: 50%;
+}
+
+.head,
+.cvall h2 {
+  font-size: 1.7em;
+}
+
+.cvall {
+  font-size: 1.3em;
+}
+
+.head span {
+  color: rgb(113, 206, 250);
+}
+
+.summary:after,
+.skills:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cvall .fa-solid {
+  color: #333333 !important;
+}
+
+.summary,
+.skills {
+  float: left;
+  width: 50%;
+  font-size: 0.8em;
+  padding: 0 10%;
+}
+
+.objectives {
+  color: rgb(113, 206, 250);
+}
+
+hr {
+  visibility: hidden;
+}
+
+.h-4 {
+  border-left: 2px solid gray;
+  padding-left: 20px;
+  margin: 25px 0 40px 0;
+}
+
+.p2 {
+  border: 2px solid rgb(113, 206, 250);
+  width: 30%;
+  margin: 0 0 10px 0;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.underline {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.footer {
+  background-color: #323232;
+  text-align: center;
+  color: whitesmoke;
+  padding: 5%;
+}
+
+.bottom {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.foot:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.line {
+  color: rgb(48, 152, 202);
+}
+
+.fa-brands,
+.fa-solid {
+  color: whitesmoke;
+}
